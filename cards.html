@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="assets/imgs/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/prism.css">
+    <link rel="stylesheet" href="assets/css/uncaught.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <title>Cards - Uncaught.css</title>
+</head>
+<body>
+    
+
+        <div id="transparent"></div>
+    <nav id="navbar">
+        <div class="container-gap">
+        <a href="index.html" class="logo">
+            UC
+        </a>
+        <span class="docs" id="trigger"> <i class="fa fa-bars"></i>Docs </span>
+
+
+        <ul>
+            <li><a href="#" class="twitter primary"> 
+                    <i class="fa fa-twitter"></i>  Twitter
+            </a></li>
+            <li><a href="#" class="git"> <i class="fa fa-github"></i> Github</a></li>
+        </ul>
+        </div>
+    </nav>
+
+    <div id="sidebar">
+            <a href="index.html" class="logo-docs">
+                    UC
+                </a>
+<ul>
+        <li> <span class="li-head"> <a href="getting-started.html">Getting Started</a> </span> </li>
+    </ul>
+    <ul>
+            <li><span class="li-head">Elements </span> </li>
+            <li> <a href="typography.html">Typography</a> </li>
+            <li> <a href="labels.html">Labels</a> </li>
+            <li> <a href="images.html">Images</a> </li>
+            <li> <a href="tables.html">Tables</a> </li>
+    
+            <li> <span class="li-head"> Layout </span> </li>
+            <li> <a href="grid.html">Grid</a> </li>
+            <li> <a href="navbar.html">Navbar</a> </li>
+            <li> <a href="responsive.html">Responsive</a> </li>
+    
+            <li> <span class="li-head"> Compontent </span> </li>
+            <li> <a href="alerts.html">Alerts</a> </li>
+            <li> <a href="badge.html">Badge</a> </li>
+            <li> <a href="buttons.html">Buttons</a> </li>
+            <li> <a href="cards.html" class="active">Card</a> </li>
+            <li> <a href="forms.html">Forms</a> </li>
+            <li> <a href="inputs.html">Inputs</a> </li>
+            <li> <a href="list.html">List</a> </li>
+            <li> <a href="steps.html">Steps</a> </li>
+            <li> <a href="modal.html">Modal</a> </li>
+            <li> <a href="pagination.html">Pagination</a> </li>
+        </ul>
+    </div>
+
+  
+
+
+    <div id="container">
+     <div class="side"></div>
+        <div class="content">
+            <section id="card">
+        <h5 class="h">Cards</h5>
+        <p>Cards can be simple as this.</p>
+
+        <div class="row">
+            <div class="col-5">
+            <div class="card">
+                    <div class="card-content">
+                        <div class="header">Header</div>
+                        <div class="body">
+                            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus ut eos molestias tempore maxime ea. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3"></div>
+            <div class="col-4"></div>
+        </div>
+        <br>
+<script type="text/plain" class="language-markup">
+    <div class="card">
+         <div class="card-content">
+            <div class="header">Header</div>
+            <div class="body">
+                <p> Lorem ipsum dolor sit amet 
+                    consectetur adipisicing elit. Necessitatibus ut eos molestias 
+                    tempore maxime ea. </p>
+            </div>
+        </div>
+    </div> 
+</script>
+
+       <h5 class="h">Simple card with extra contents</h5>
+        <div class="row">
+                <div class="col-5">
+                <div class="card">
+                        <div class="card-content">
+                            <div class="header">Brisbane, Australia</div>
+                            <div class="body">
+                            <span class="title-mute">4 days ago</span>
+                                <p>Queensland Australia's largest city – been chosen for its winning combination of high-rise modern architecture, lush green spaces and the enormous Brisbane River that snakes its way through the centre before emptying itself into the azure Moreton Bay.</p>
+                            </div>
+                            <div class="card-extra">
+                                <i class="fa fa-check"></i> 134 votes
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3"></div>
+                <div class="col-4"></div>
+            </div>
+            <br>
+<script type="text/plain" class="language-markup">
+    <div class="card">
+            <div class="card-content">
+                <div class="header">Brisbane, Australia</div>
+                <div class="body">
+                <span class="title-mute">4 days ago</span>
+                    <p>Queensland Australia's largest city – been chosen for its winning 
+                        combination of high-rise modern architecture, lush 
+                        green spaces and the enormous Brisbane River that snakes
+                         its way through the centre before emptying itself into 
+                         the azure Moreton Bay.</p>
+                </div>
+                <div class="card-extra">
+                    <i class="fa fa-check"></i> 134 votes
+                </div>
+            </div>
+        </div>
+</script>
+<h5>Card Classic</h5>
+<div class="row">
+    <div class="col-5">
+        <div class="card">
+            <div class="card-classic">
+                <div class="name">Sara</div>
+                <span class="title-mute">CEO at Touchgue</span>
+                <div class="description">
+                    Lorem ipsum dolor, sit amet consectetur 
+                    adipisicing elit. Tenetur, facilis!
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-3"></div>
+    <div class="col-4"></div>
+</div>
+<br>
+<script type="text/plain" class="language-markup">
+    <div class="card">
+            <div class="card-classic">
+                <div class="name">Sara</div>
+                <span class="title-mute">CEO at Touchgue</span>
+                <div class="description">
+                    Lorem ipsum dolor, sit amet consectetur 
+                    adipisicing elit. Tenetur, facilis!
+                </div>
+            </div>
+        </div>
+</script>
+
+<h5 class="h">Card classic with extra contents</h5>
+<div class="row">
+        <div class="col-5">
+            <div class="card">
+                <div class="card-classic">
+                    <div class="name">Sara</div>
+                    <span class="title-mute">CEO at Touchgue</span>
+                    <div class="description">
+                        Lorem ipsum dolor, sit amet consectetur 
+                        adipisicing elit. Tenetur, facilis!
+                    </div>
+                </div>
+                <div class="card-extra">
+                    <i class="fa fa-users"></i> 33 Members
+                </div>
+            </div>
+        </div>
+        <div class="col-3"></div>
+        <div class="col-4"></div>
+    </div>
+<br>
+<script type="text/plain" class="language-markup">
+    <div class="card">
+        <div class="card-classic">
+            <div class="name">Sara</div>
+            <span class="title-mute">CEO at Touchgue</span>
+            <div class="description">
+                Lorem ipsum dolor, sit amet consectetur 
+                adipisicing elit. Tenetur, facilis!
+            </div>
+        </div>
+        <div class="card-extra">
+            <i class="fa fa-users"></i> 33 Members
+        </div>
+    </div>
+</script>
+
+<h5 class="h">Profile Card</h5>
+<p>Cards can also include image</p>
+<div class="row">
+        <div class="col-5">
+            <div class="card">
+                <div class="card-profile">
+                    <div class="profile-image">
+                        <img src="assets/imgs/woman.jpg" alt="">
+                    </div>
+                    <div class="body">
+                        <div class="name">Sara Morgan</div>
+                        <span class="title-mute">Joined May 2018</span>
+                        <div class="description">Manager at Global Market</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-3"></div>
+        <div class="col-4"></div>
+    </div>
+<br>
+<script type="text/plain" class="language-markup">
+    <div class="card">
+        <div class="card-profile">
+            <div class="profile-image">
+                <img src="img/sara.jpg" alt="">
+            </div>
+            <div class="body">
+                <div class="name">Sara Morgan</div>
+                <span class="title-mute">Joined May 2018</span>
+                <div class="description">Manager at Global Market</div>
+            </div>
+        </div>
+     </div>
+</script>
+<h5 class="h">Profile card with extra contents</h5>
+<div class="row">
+        <div class="col-5">
+            <div class="card">
+                <div class="card-profile">
+                    <div class="profile-image">
+                        <img src="assets/imgs/woman.jpg" alt="">
+                    </div>
+                    <div class="body">
+                        <div class="name">Sara Morgan</div>
+                        <span class="title-mute">Joined May 2018</span>
+                        <div class="description">Manager at Global Market</div>
+                    </div>
+                </div>
+                <div class="card-extra">
+                    <i class="fa fa-heart"></i> 20 Likes
+                </div>
+            </div>
+        </div>
+        <div class="col-3"></div>
+        <div class="col-4"></div>
+    </div>
+<br>
+<script type="text/plain" class="language-markup">
+    <div class="card">
+        <div class="card-profile">
+            <div class="profile-image">
+                <img src="img/sara.jpg" alt="">
+            </div>
+            <div class="body">
+                <div class="name">Sara Morgan</div>
+                <span class="title-mute">Joined May 2018</span>
+                <div class="description">Manager at Global Market</div>
+            </div>
+        </div>
+        <div class="card-extra">
+            <i class="fa fa-heart"></i> 20 Likes
+        </div>
+     </div>
+</script>
+    <h5 class="h">They can also be in group</h5>
+
+<div class="row">
+    <div class="col-4">
+    <div class="card">
+            <div class="card-profile">
+                <div class="profile-image">
+                    <img src="assets/imgs/juliet.jpg" alt="">
+                </div>
+                <div class="body">
+                    <div class="name">Juliet Derek</div>
+                    <span class="title-mute">Joined May 2018</span>
+                    <div class="description">Visual assistant at Global Market</div>
+                </div>
+            </div>
+            <div class="card-extra">
+                <i class="fa fa-user"></i> 44 Friends
+            </div>
+        </div>
+    </div>
+    <div class="col-4">
+    <div class="card">
+            <div class="card-profile">
+                <div class="profile-image">
+                    <img src="assets/imgs/girl.jpg" alt="">
+                </div>
+                <div class="body">
+                    <div class="name">Karen Drake</div>
+                    <span class="title-mute">Joined May 2018</span>
+                    <div class="description">Editor at Global Market</div>
+                </div>
+            </div>
+            <div class="card-extra">
+                <i class="fa fa-user"></i> 28 Friends
+            </div>
+        </div>
+    </div>
+    <div class="col-4">
+    <div class="card">
+            <div class="card-profile">
+                <div class="profile-image">
+                    <img src="assets/imgs/boy.jpg" alt="">
+                </div>
+                <div class="body">
+                    <div class="name">Anthony White</div>
+                    <span class="title-mute">Joined July 2018</span>
+                    <div class="description">Developer at Global Market</div>
+                </div>
+            </div>
+            <div class="card-extra">
+                <i class="fa fa-user"></i> 20 Friends
+            </div>
+        </div>
+    </div>
+</div>
+
+<br>
+
+<script type="text/plain" class="language-markup">
+   
+<div class="row">
+        <div class="col-4">
+        <div class="card">
+                <div class="card-profile">
+                    <div class="profile-image">
+                        <img src="imgs/juliet.jpg" alt="">
+                    </div>
+                    <div class="body">
+                        <div class="name">Juliet Derek</div>
+                        <span class="title-mute">Joined May 2018</span>
+                        <div class="description">Visual assistant at Global Market</div>
+                    </div>
+                </div>
+                <div class="card-extra">
+                    <i class="fa fa-user"></i> 44 Friends
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+        <div class="card">
+                <div class="card-profile">
+                    <div class="profile-image">
+                        <img src="imgs/karen.jpg" alt="">
+                    </div>
+                    <div class="body">
+                        <div class="name">Karen Drake</div>
+                        <span class="title-mute">Joined May 2018</span>
+                        <div class="description">Editor at Global Market</div>
+                    </div>
+                </div>
+                <div class="card-extra">
+                    <i class="fa fa-user"></i> 28 Friends
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+        <div class="card">
+                <div class="card-profile">
+                    <div class="profile-image">
+                        <img src="imgs/anthony.jpg" alt="">
+                    </div>
+                    <div class="body">
+                        <div class="name">Anthony White</div>
+                        <span class="title-mute">Joined July 2018</span>
+                        <div class="description">Developer at Global Market</div>
+                    </div>
+                </div>
+                <div class="card-extra">
+                    <i class="fa fa-user"></i> 20 Friends
+                </div>
+            </div>
+        </div>
+    </div>
+</script>
+
+<h5 class="h">Important note</h5>
+<p>Cards in uncaught are made responsive with width:auto and height: auto which makes the card scale with the parent element. eg.
+</p>
+<div class="row">
+    <div class="col-3">
+    <div class="card">
+            <div class="card-content">
+                <div class="header">Header</div>
+                <div class="body">
+                    <p>A Simple card in Col-3 </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-5">
+    <div class="card">
+            <div class="card-content">
+                <div class="header">Header</div>
+                <div class="body">
+                    <p>A Simple card in Col-5 </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-4">
+    <div class="card">
+            <div class="card-content">
+                <div class="header">Header</div>
+                <div class="body">
+                    <p>A Simple card in Col-4 </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<br>
+
+<script type="text/plain" class="language-markup">
+<div class="row">
+        <div class="col-3">
+        <div class="card">
+                <div class="card-content">
+                    <div class="header">Header</div>
+                    <div class="body">
+                        <p>A Simple card in Col-3 </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-5">
+        <div class="card">
+                <div class="card-content">
+                    <div class="header">Header</div>
+                    <div class="body">
+                        <p>A Simple card in Col-5 </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+        <div class="card">
+                <div class="card-content">
+                    <div class="header">Header</div>
+                    <div class="body">
+                        <p>A Simple card in Col-4 </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</script>
+
+        </section>
+          
+        </div>
+    </div>
+
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+<footer id="footer">
+    
+</footer>
+
+        </div>
+    </div>
+
+
+ <script src="js/prism.js"></script>
+ <script src="js/docs.js"></script>
+ <script src="js/main.js"></script>
+</body>
+</html>

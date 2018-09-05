@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="assets/imgs/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/prism.css">
+    <link rel="stylesheet" href="assets/css/uncaught.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <title>Forms - Uncaught.css</title>
+</head>
+<body>
+    
+
+        <div id="transparent"></div>
+    <nav id="navbar">
+        <div class="container-gap">
+        <a href="index.html" class="logo">
+            UC
+        </a>
+        <span class="docs" id="trigger"> <i class="fa fa-bars"></i>Docs </span>
+
+
+        <ul>
+            <li><a href="#" class="twitter primary"> 
+                    <i class="fa fa-twitter"></i>  Twitter
+            </a></li>
+            <li><a href="#" class="git"> <i class="fa fa-github"></i> Github</a></li>
+        </ul>
+        </div>
+    </nav>
+
+    <div id="sidebar">
+            <a href="index.html" class="logo-docs">
+                    UC
+                </a>
+        <ul>
+            <li> <span class="li-head"> <a href="getting-started.html">Getting Started</a> </span> </li>
+        </ul>
+        <ul>
+          <li> <span class="li-head">Elements </span> </li>
+          <li> <a href="typography.html">Typography</a> </li>
+          <li> <a href="labels.html">Labels</a> </li>
+          <li> <a href="images.html">Images</a> </li>
+          <li> <a href="tables.html">Tables</a> </li>
+
+        <li> <span class="li-head"> Layout </span> </li>
+        <li> <a href="grid.html">Grid</a> </li>
+        <li> <a href="navbar.html">Navbar</a> </li>
+        <li> <a href="responsive.html">Responsive</a> </li>
+
+        <li> <span class="li-head"> Compontent </span> </li>
+        <li> <a href="alerts.html">Alerts</a> </li>
+        <li> <a href="badge.html">Badge</a> </li>
+        <li> <a href="buttons.html">Buttons</a> </li>
+        <li> <a href="cards.html">Card</a> </li>
+        <li> <a href="forms.html" class="active">Forms</a> </li>
+        <li> <a href="inputs.html">Inputs</a> </li>
+        <li> <a href="list.html">List</a> </li>
+        <li> <a href="steps.html">Steps</a> </li>
+        <li> <a href="modal.html">Modal</a> </li>
+        <li> <a href="pagination.html">Pagination</a> </li>
+      </ul>
+    </div>
+
+  
+
+
+    <div id="container">
+     <div class="side"></div>
+        <div class="content">
+            <section id="form">
+<h5 class="h">Forms</h5>
+                <div class="form">
+                    <div class="form-content">
+                        <label>First Name</label>
+                        <input type="text" placeholder="First Name">
+                    </div>
+                    <div class="form-content">
+                            <label>Password</label>
+                            <input type="password" placeholder="Password">
+                    </div>
+                    <div class="checkbox">
+                        <input type="checkbox">
+                        <label> Check me out!</label>
+                    </div>
+                    <button class="btn dark">Submit</button>
+                </div>
+<br>
+<script type="text/plain" class="language-markup">
+<div class="form">
+    <div class="form-content">
+        <label>First Name</label>
+        <input type="text" placeholder="First Name">
+    </div>
+    <div class="form-content">
+            <label>Password</label>
+            <input type="password" placeholder="Password">
+    </div>
+    <div class="checkbox">
+        <input type="checkbox">
+        <label>Check me out!</label>
+    </div>
+    <button class="btn dark">Submit</button>
+</div>
+</script>
+
+<h5 class="h">Form Grid</h5>
+
+<div class="form">
+    <div class="row">
+        <div class="form-content col-6">
+            <label>First Name</label>
+            <input type="text" placeholder="First Name">
+        </div>
+        <div class="form-content col-6">
+                <label>Last Name</label>
+                <input type="text" placeholder="Last Name">
+        </div>
+    </div>
+</div>
+<br>
+<script type="text/plain" class="language-markup">
+    <div class="form">
+        <div class="row">
+            <div class="form-content col-6">
+                <label>First Name</label>
+                <input type="text" placeholder="First Name">
+            </div>
+            <div class="form-content col-6">
+                <label>Last Name</label>
+                <input type="text" placeholder="Last Name">
+            </div>
+        </div>
+    </div>
+</script>
+
+<br><br>
+
+<div class="form">
+        <div class="row">
+            <div class="form-content col-5">
+                <label>First Name</label>
+                <input type="text" placeholder="First Name">
+            </div>
+            <div class="form-content col-3">
+                <label>Middle Name</label>
+                <input type="text" placeholder="Middle Name">
+            </div>
+            <div class="form-content col-4">
+                <label>Last Name</label>
+                <input type="text" placeholder="Last Name">
+            </div>
+        </div>
+    </div>
+    <br>
+    <script type="text/plain" class="language-markup">
+        <div class="form">
+            <div class="row">
+                <div class="form-content col-5">
+                    <label>First Name</label>
+                    <input type="text" placeholder="First Name">
+                </div>
+                <div class="form-content col-3">
+                    <label>Middle Name</label>
+                    <input type="text" placeholder="Middle Name">
+                </div>
+                <div class="form-content col-4">
+                    <label>Last Name</label>
+                    <input type="text" placeholder="Last Name">
+                </div>
+            </div>
+        </div>
+    </script>
+<br><br>
+<div class="form">
+        <div class="row">
+            <div class="form-content col-4">
+                <label>First Name</label>
+                <input type="text" placeholder="First Name">
+            </div>
+            <div class="form-content col-4">
+                <label>Middle Name</label>
+                <input type="text" placeholder="Middle Name">
+            </div>
+            <div class="form-content col-4">
+                <label>Last Name</label>
+                <input type="text" placeholder="Last Name">
+            </div>
+        </div>
+    </div>
+<br>
+    <script type="text/plain" class="language-markup">
+    <div class="form">
+            <div class="row">
+                <div class="form-content col-4">
+                    <label>First Name</label>
+                    <input type="text" placeholder="First Name">
+                </div>
+                <div class="form-content col-4">
+                    <label>Middle Name</label>
+                    <input type="text" placeholder="Middle Name">
+                </div>
+                <div class="form-content col-4">
+                    <label>Last Name</label>
+                    <input type="text" placeholder="Last Name">
+                </div>
+            </div>
+        </div>
+    </script>
+
+<h5 class="h">Text Area</h5>
+
+<div class="form">
+    <label class="text-label">Text</label>
+    <textarea name="textarea" rows="9"></textarea>
+</div>
+
+<h5 class="h">Checkbox</h5>
+<div class="checkbox">
+        <input type="checkbox">
+        <label> Check box 1</label>
+</div>
+<div class="checkbox">
+        <input type="checkbox">
+        <label> Check box 2</label>
+</div>
+<script type="text/plain" class="language-markup">
+    <div class="checkbox">
+        <input type="checkbox">
+        <label> Check box 1</label>
+    </div>
+    <div class="checkbox">
+        <input type="checkbox">
+        <label> Check box 2</label>
+    </div>
+</script>
+
+<h5 class="h">Radio Buttons</h5>
+<div class="radio">
+    <input type="radio" name="gender">
+    <i class="is-radio"></i>
+    <label>I'm a male</label>
+</div>
+<div class="radio">
+        <input type="radio" name="gender">
+        <i class="is-radio"></i>
+        <label>I'm a female</label>
+</div>
+<div class="radio">
+        <input type="radio" name="gender">
+        <i class="is-radio"></i>
+        <label>Other</label>
+</div>
+<script type="text/plain" class="language-markup">
+    <div class="radio">
+        <input type="radio" name="gender">
+        <i class="is-radio"></i>
+        <label>I'm a male</label>
+    </div>
+    <div class="radio">
+        <input type="radio" name="gender">
+        <i class="is-radio"></i>
+        <label>I'm a female</label>
+    </div> 
+    <div class="radio">
+        <input type="radio" name="gender">
+        <i class="is-radio"></i>
+        <label>Other</label>
+    </div> 
+</script>
+<h5 class="h">Switch</h5>
+
+<div class="switch">
+    <input type="checkbox">
+    <i class="is-slide"></i>
+    <label>Enable notification</label>
+</div>
+<div class="switch-slime">
+    <input type="checkbox">
+    <i class="is-slide"></i>
+    <label>Enable notification</label>
+ </div>
+ <script type="text/plain" class="language-markup">
+    <div class="switch">
+        <input type="checkbox">
+        <i class="is-slide"></i>
+        <label>Enable notification</label>
+    </div>
+    <div class="switch-slime">
+        <input type="checkbox">
+        <i class="is-slide"></i>
+        <label>Enable notification</label>
+    </div> 
+</script>
+
+
+        </section>
+          
+        </div>
+    </div>
+
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+<footer id="footer">
+    
+</footer>
+
+        </div>
+    </div>
+
+
+ <script src="js/prism.js"></script>
+ <script src="js/docs.js"></script>
+ <script src="js/main.js"></script>
+</body>
+</html>

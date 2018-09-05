@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="assets/imgs/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/prism.css">
+    <link rel="stylesheet" href="assets/css/uncaught.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <title>Modal - Uncaught.css</title>
+</head>
+<body>
+    
+
+ 
+
+  
+<div class="container">
+
+
+
+       
+<h5 class="h">Modal (how it works)</h5>
+<ul>
+    <li>Modals are built with HTML, CSS, and JavaScript. They’re positioned (fixed) over everything else in the document and remove scroll from the <strong>body</strong> so that modal content scrolls instead.</li>
+        <br>
+     <li>Clicking the transparent background will automatically close the modal.</li>
+</ul>
+
+<br>
+<div class="modal">
+        <div class="modal-window">
+            <div class="modal-content">
+                <p>Another crazy center-embedded sentence. Can you figure it out? Start with "anyone who feels X is likely to agree." Then go to "anyone who feels if X then Y is likely to agree." Then fill out the X and Y. You might need a pencil and paper.</p>
+    
+                <button class="btn dark">I concur</button> 
+                <button class="btn primary"> <i class="fa fa-twitter"></i> let's tweet it</button> 
+            </div>
+        </div>
+    </div>
+
+    <button class="btn dark modal-trigger">Click me to reveal modal</button>
+
+<script type="text/plain" class="language-markup">
+    <div class="modal">
+            <div class="modal-window">
+                <div class="modal-content">
+                    <p>Another crazy center-embedded sentence. Can you figure it out? Start with "anyone who feels X
+                         is likely to agree." Then go to "anyone who feels 
+                         if X then Y is likely to agree." Then fill out the
+                          X and Y. You might need a pencil and paper.</p>
+        
+                    <button class="btn dark">I concur</button> <button class="btn primary">let's tweet it</button> 
+                </div>
+            </div>
+        </div>
+
+
+        <!--Modal trigger-->
+
+        <button class="btn dark modal-trigger">Click me to reveal modal</button>
+</script>
+
+<h5 class="h">The JavaScript</h5>
+
+
+<pre>
+    <code class="language-javascript">
+        const modalTrigger = document.querySelector('.modal-trigger');
+        const modal = document.querySelector('.modal');
+        
+        //open modal
+        modalTrigger.addEventListener('click', () => {
+            modal.classList.add('modal-is-active')
+        })
+        
+        window.addEventListener('click', closeModal); //close modal
+        
+        //close modal function
+        function closeModal(e){
+            if(e.target == modal){
+                modal.classList.remove('modal-is-active')
+            }
+        }
+    </code>
+</pre>
+
+
+</div>
+  
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+<footer id="footer">
+    
+</footer>
+
+
+ <script src="js/prism.js"></script>
+ <script src="js/docs.js"></script>
+ <script src="js/main.js"></script>
+</body>
+</html>
