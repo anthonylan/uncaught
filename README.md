@@ -1,7 +1,7 @@
 ## Uncaught.css
 * Flexbox-based
 * Lightweight(11KB Zip Archive)
-* Eleganty designed and mobile-friendly
+* Elegantly designed and mobile-friendly
 ## Getting started
 
 Uncaught comes in two different forms(CSS & Sass)
