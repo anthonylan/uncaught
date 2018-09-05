@@ -14,34 +14,34 @@ This version contains the source SCSS file. By choosing this version you have mo
 
 #### Go to the getting started page
 
-[Downlaod uncaught](https://anthonylan.github.io/uncaughtcss/getting-started.html)
+[Downlaod uncaught](https://anthonylan.github.io/Uncaughtcss/getting-started.html)
 
 ## Documentation
 
 ### Elements
-* [Typography](https://anthonylan.github.io/uncaughtcss/typography.html)
-* [Lables](https://anthonylan.github.io/uncaughtcss/labels.html)
+* [Typography](https://anthonylan.github.io/Uncaughtcss/typography.html)
+* [Lables](https://anthonylan.github.io/Uncaughtcss/labels.html)
 
-* [Images](https://anthonylan.github.io/uncaughtcss/images.html)
+* [Images](https://anthonylan.github.io/Uncaughtcss/images.html)
 
-* [Tables](https://anthonylan.github.io/uncaughtcss/tables.html)
+* [Tables](https://anthonylan.github.io/Uncaughtcss/tables.html)
 
 ### Layout 
-* [Grid](https://anthonylan.github.io/uncaughtcss/grid.html)
-* [Navbar](https://anthonylan.github.io/uncaughtcss/navbar.html)
-* [Responsive](https://anthonylan.github.io/uncaughtcss/responsive.html)
+* [Grid](https://anthonylan.github.io/Uncaughtcss/grid.html)
+* [Navbar](https://anthonylan.github.io/Uncaughtcss/navbar.html)
+* [Responsive](https://anthonylan.github.io/Uncaughtcss/responsive.html)
 
 ### Components
-* [Alerts](https://anthonylan.github.io/uncaughtcss/alerts.html)
-* [Badge](https://anthonylan.github.io/uncaughtcss/badge.html)
-* [Buttons](https://anthonylan.github.io/uncaughtcss/buttons.html)
-* [Cards](https://anthonylan.github.io/uncaughtcss/cards.html)
-* [Forms](https://anthonylan.github.io/uncaughtcss/forms.html)
-* [Inputs](https://anthonylan.github.io/uncaughtcss/inputs.html)
-* [List](https://anthonylan.github.io/uncaughtcss/list.html)
-* [Steps](https://anthonylan.github.io/uncaughtcss/steps.html)
-* [Modal](https://anthonylan.github.io/uncaughtcss/modal.html)
-* [Pagination](https://anthonylan.github.io/uncaughtcss/pagination.html)
+* [Alerts](https://anthonylan.github.io/Uncaughtcss/alerts.html)
+* [Badge](https://anthonylan.github.io/Uncaughtcss/badge.html)
+* [Buttons](https://anthonylan.github.io/Uncaughtcss/buttons.html)
+* [Cards](https://anthonylan.github.io/Uncaughtcss/cards.html)
+* [Forms](https://anthonylan.github.io/Uncaughtcss/forms.html)
+* [Inputs](https://anthonylan.github.io/Uncaughtcss/inputs.html)
+* [List](https://anthonylan.github.io/Uncaughtcss/list.html)
+* [Steps](https://anthonylan.github.io/Uncaughtcss/steps.html)
+* [Modal](https://anthonylan.github.io/Uncaughtcss/modal.html)
+* [Pagination](https://anthonylan.github.io/Uncaughtcss/pagination.html)
 
 
 
