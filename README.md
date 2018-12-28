@@ -1,6 +1,6 @@
 ## [Uncaught.css](https://anthonylan.github.io/Uncaughtcss/index.html)
-[shot 1](shots/shot1.png)
-[shot 2](shots/shot2.png)
+![shot 1](shots/shot1.png)
+![shot 2](shots/shot2.png)
 * Flexbox-based
 * Lightweight(11KB Zip Archive)
 * Elegantly designed and mobile-friendly
